@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.form_cd{
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+form input[type="text"]{
+    color: white;
+    border-color: white;
+    width: 100%;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input {
+    color: white;
+}
+
+form input[type="password"]{
+    border-color: white;
+    width: 100%;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+form input[type="submit"]{
+    color: white;
+    border-color: white;
+    width: 50%;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+h2 {
+    color: white;
+}
+
+.mensagem {
+    position: fixed;
+    bottom: 0;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+    text-align-last: center;
+    padding: 10px;
+}
